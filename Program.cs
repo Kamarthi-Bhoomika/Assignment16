@@ -10,11 +10,13 @@ namespace Assignment16_PropertiesOfC_
     {
         static void Main(string[] args)
         {
-            BankAccount bankAccount = new BankAccount("Bhoomika");
-            //Console.WriteLine("Enter Name: ");
-            //bankAccount.AccountHolderName = Console.ReadLine();
+            BankAccount bankAccount = new BankAccount("Bhoomika",11);
             bankAccount.Deposit();
             bankAccount.Withdraw();
+
+            BankAccount bankAccount2 = new BankAccount("Sparsha",12);
+            bankAccount2.Deposit();
+            bankAccount2.Withdraw();
             Console.ReadKey();
 
         }

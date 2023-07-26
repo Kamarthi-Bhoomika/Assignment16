@@ -8,7 +8,7 @@ namespace Assignment16_PropertiesOfC_
 {
     public class BankAccount
     {
-		private int accountNumber;
+		private readonly int accountNumber;
 
 		public int AccountNumber
 		{
@@ -23,14 +23,11 @@ namespace Assignment16_PropertiesOfC_
 		}
 		private double balance;
 
-		public double Balance
-		{
-			get { return balance; }
-		}
-        public BankAccount(string accountHolderName)
+        public BankAccount(string accountHolderName, int acc)
         {
 			this.accountHolderName = accountHolderName;
-            balance = 0;
+			this.accountNumber = acc;
+            this.balance = 0;
         }
 		public void Deposit()
 		{
@@ -44,9 +41,17 @@ namespace Assignment16_PropertiesOfC_
 		{
             Console.WriteLine("Enter Amount to Withdraw: ");
 			double amount = double.Parse(Console.ReadLine());
-			balance -= amount;
-            Console.WriteLine("Account Holder Name: " + accountHolderName);
-            Console.WriteLine("Balance Amount= " + balance);
+			if(amount >0 && amount < balance)
+			{
+                balance -= amount;
+                Console.WriteLine("Account Holder Name: " + accountHolderName);
+                Console.WriteLine("Balance Amount= " + balance);
+			}
+			else
+			{
+                Console.WriteLine("Insufficient Fund");
+            }
+			
         }
 
     }
