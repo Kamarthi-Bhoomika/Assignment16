@@ -1,0 +1,8 @@
+D:\Mphasis\.net\Day13\Assignment16_PropertiesOfC#\Assignment16_PropertiesOfC#\bin\Debug\Assignment16_PropertiesOfC#.exe.config
+D:\Mphasis\.net\Day13\Assignment16_PropertiesOfC#\Assignment16_PropertiesOfC#\bin\Debug\Assignment16_PropertiesOfC#.exe
+D:\Mphasis\.net\Day13\Assignment16_PropertiesOfC#\Assignment16_PropertiesOfC#\bin\Debug\Assignment16_PropertiesOfC#.pdb
+D:\Mphasis\.net\Day13\Assignment16_PropertiesOfC#\Assignment16_PropertiesOfC#\obj\Debug\Assignment16_PropertiesOfC#.csproj.AssemblyReference.cache
+D:\Mphasis\.net\Day13\Assignment16_PropertiesOfC#\Assignment16_PropertiesOfC#\obj\Debug\Assignment16_PropertiesOfC#.csproj.SuggestedBindingRedirects.cache
+D:\Mphasis\.net\Day13\Assignment16_PropertiesOfC#\Assignment16_PropertiesOfC#\obj\Debug\Assignment16_PropertiesOfC#.csproj.CoreCompileInputs.cache
+D:\Mphasis\.net\Day13\Assignment16_PropertiesOfC#\Assignment16_PropertiesOfC#\obj\Debug\Assignment16_PropertiesOfC#.exe
+D:\Mphasis\.net\Day13\Assignment16_PropertiesOfC#\Assignment16_PropertiesOfC#\obj\Debug\Assignment16_PropertiesOfC#.pdb
